@@ -1,85 +1,74 @@
 const experience = [
   {
-    title: "React Instructor",
-    company: "Coderhouse",
-    dates: "06/2021 - Present",
-  "description": [
-      "Teach live virtual bootcamps on React, guiding students in building e-commerce projects from scratch.",
-      "Break down complex topics—like state management, performance optimization (memoization, Virtual DOM), and advanced patterns (context API, reconciliation)—into clear, engaging lessons.",
-      "Integrate modern tools (Firestore, react-router, backend APIs) to give students real-world development experience.",
-      "Continuously refine course material based on industry updates, ensuring students learn a relevant skillset."
+    title: "Analista Programador SSr - Tech Lead",
+    company: "Sistemas Activos SRL",
+    dates: "01/2022 - Presente",
+    description: [
+      "Analista Programador PL/SQL en el sector bancario, especializado en diseño y desarrollo de modelos de datos.",
+      "Creación de stored procedures y desarrollo de procesos batch para entornos distribuidos.",
+      "Elaboración de perfiles planificados mediante Control-M y gestión de versiones con Jenkins y Git Graph.",
+      "Trabajo bajo metodología Scrum utilizando Jira para planificación de sprints.",
+      "Comunicación fluida con usuarios para análisis de solicitudes y testing pre-productivo."
     ],
-    link: "https://www.coderhouse.com/ar/",
+    link: "https://www.sistemasactivos.com",
     tags: [
-      { type: "React"},
-      { type: "Firebase"},      
-      { type: "Teaching" },
-      { type: "Communication" },
+      { type:  "PL/SQL" },
+      { type: "Control-M" },
+      { type: "Jenkins" },
+      { type: "Scrum" },
+      { type: "Jira" }
     ]
   },
   {
-    title: "Frontend Instructor",
-    company: "HackABoss",
-    dates: "08/2023 - 10/2024",
-    "description": [
-      "Taught React as part of a Full Stack bootcamp, mentoring students through projects and code reviews.",
-      "Focused on practical learning with tailored exercises to solidify understanding."
+    title: "Analista Programador Jr",
+    company: "Sistemas Activos SRL",
+    dates: "10/2020 - 12/2021",
+    description: [
+      "Servicios informáticos enfocados en desarrollo y mantenimiento de sistemas de inversión para BBVA.",
+      "Utilización de lenguajes de programación SQL, 4th Dimension y Sybase.",
+      "Implementación de metodología ágil SCRUM para optimizar procesos."
     ],
-    link: "https://www.hackaboss.com",
+    link: "https://www.sistemasactivos.com",
     tags: [
-      { type: "React"},
-      { type: "NodeJS"},
-      { type: "Teaching" },
-      { type: "Communication" },
+      { type: "SQL" },
+      { type: "Sybase" },
+      { type:  "4th Dimension" },
+      { type: "SCRUM" }
     ]
   },
   {
-    title: "React Course Content Developer",
-    company: "Coderhouse",
-    dates: "04/2023 - 08/2023",
-    "description": [
-      "Writer and developer for scripts and lesson plans in a new React course format, collaborating with instructors and designers to shape the curriculum.",
-      "Focused on making complex topics intuitive—drafting clear explanations, hands-on exercises, and project guidelines used by hundreds of students.",
-      "Built coding challenges and real-world examples to help students transition from learning to practice."
+    title: "Desarrollador Web y Testing Engineer",
+    company: "Sistemas Activos SRL",
+    dates: "02/2020 - 10/2020",
+    description:  [
+      "Desarrollador de sistemas en el departamento de Investigación y Desarrollo.",
+      "Utilización de lenguajes de programación Java, Angular y Bootstrap.",
+      "Testing de aplicaciones y aseguramiento de calidad."
     ],
-    link: "https://www.coderhouse.com/ar/",
+    link: "https://www.sistemasactivos.com",
     tags: [
-      { type: "React"},
-      { type: "Writing" },
-      { type: "Teamwork" },
-      { type: "Creativity" },
+      { type: "Java" },
+      { type: "Angular" },
+      { type: "Bootstrap" },
+      { type:  "Testing" }
     ]
   },
   {
-    title: "Wordpress Content Manager",
-    company: "Multimedios Paraná",
-    dates: "02/2019 - 12/2022",
-    "description": [
-      "Managed WordPress sites, handling everything from plugin updates to security tweaks and custom CSS.",
-      "Optimized hosting setups (databases, storage, users) and ensured smooth site performance."
-    ],
-    link: "https://multimediosparana.com.ar/",
-    tags: [
-      { type: "Wordpress" },      
-      { type: "PHP" },
-      { type: "Social Media" },
-    ]
-  },
-  {
-    title: "Graphic Designer",
-    company: "FGS Media",
-    dates: "05/2015 - 12/2022",
-    "description": [
-      "Designed graphic, audiovisual, and interactive materials, including catalogs, magazines, branding assets, and video content for both print and digital media.",
-      "Managed social media content and ad campaigns for various platforms such as facebook, instagram, and google."
+    title: "Primera Cámara - Encargado de Personal",
+    company: "ARKAL PR.",
+    dates: "04/2016 - 10/2019",
+    description: [
+      "Fundación y dirección de emprendimiento de producción fotográfica y audiovisual.",
+      "Coordinación y liderazgo de equipo, gestión de dirección y administración de contratos.",
+      "Responsable de Relaciones Públicas, estableciendo conexiones estratégicas."
     ],
     tags: [
-      { type: "Graphic Design" },
-      { type: "Video Editing" },
-      { type: "Social Media" },
+      { type: "Liderazgo" },
+      { type: "Gestión" },
+      { type: "RRHH" },
+      { type: "Audiovisual" }
     ]
   }
 ];
 
 module.exports = experience;
-

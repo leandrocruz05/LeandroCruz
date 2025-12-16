@@ -1,36 +1,24 @@
-
-const skills = {
-  frontend: [
-    { type: "React", color: "#4f92ff" },
-    { type: "NextJS", color: "#555555" },
-    { type: "Typescript", color: "#2E5083" },
-    { type: "Tailwind", color: "#0D7377" },
-    { type: "Redux", color: "#784296" },
-    { type: "React Router", color: "#bB2410" },
-  ],
-  backend: [
-    { type: "Node", color: "#02a47a" },
-    { type: "Nest", color: "#aB4252" },
-    { type: "Express", color: "#7ba00a" },
-    { type: "MongoDB", color: "#3b730a" },
-    { type: "JWT", color: "#dc2088" },
-  ],
-  "others": [
-    { type: "Git" , color: "#f1502f" },
-    { type: "Firebase", color: "#cb9812" },
-    { type: "React Query", color: "#db4902" },
-    { type: "Docker", color: "#0db7ed" },
-  ],
-  design: [
-    { type: "Photoshop", color: "#25376b" },
-    { type: "Illustrator", color: "#dcb709" },
-    { type: "After Effects", color: "#bc0078" },    
-    { type: "Figma", color: "#Ca6e7e" },
-  ],
-  languages: [ { type: "Spanish - Native", color: "#555" }, { type: "English - C1", color: "#555" }
-  ]
-  
-};
+const skills = [
+  { name: "SQL", level: 100, category: "Backend & Database" },
+  { name:  "SYBASE", level: 100, category: "Backend & Database" },
+  { name: "4TH DIMENSION", level: 100, category: "Backend & Database" },
+  { name: "PL/SQL", level: 95, category: "Backend & Database" },
+  { name: "JENKINS", level: 80, category: "DevOps & Tools" },
+  { name: "BITBUCKET", level: 80, category: "DevOps & Tools" },
+  { name:  "GITHUB", level: 80, category: "DevOps & Tools" },
+  { name:  "CONTROL M", level: 80, category: "DevOps & Tools" },
+  { name:  "JIRA", level: 80, category: "DevOps & Tools" },
+  { name:  "HTML/CSS", level: 80, category: "Frontend" },
+  { name: "SASS", level: 80, category: "Frontend" },
+  { name: "JAVASCRIPT", level: 70, category: "Frontend" },
+  { name: "REACT JS", level: 70, category:  "Frontend" },
+  { name: "ANGULAR", level: 60, category: "Frontend" },
+  { name: "BOOTSTRAP", level: 70, category: "Frontend" },
+  { name: "FIREBASE", level: 50, category: "Backend & Database" },
+  { name:  "NODE JS", level: 40, category: "Backend & Database" },
+  { name: "POSTMAN", level: 40, category: "DevOps & Tools" },
+  { name: "JAVA", level: 50, category: "Backend & Database" },
+  { name: "COBOL", level: 30, category: "Backend & Database" }
+];
 
 export default skills;
-
