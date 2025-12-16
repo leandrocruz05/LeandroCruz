@@ -1,126 +1,96 @@
 const projects = [
   {
-      title: "Aegis - Inventory Management App",
-    type: "Personal Project - Work in progress",
-    company: "Personal Project",
-    url: " https://aegis-inventory-react.vercel.app/",
+    title: "Aplicación Web Interactiva React JS",
+    type: "Proyecto Final - CoderHouse",
+    company:  "Proyecto Académico",
+    url: "https://github.com/leandrocruz05/Proyecto-Final-React. git",
     github: [{
-      url: "https://github.com/SSantiago90/aegis-inventory-react",
-      label: "Front End"
-    }, 
-      {
-        url: "https://github.com/SSantiago90/aegis-inventory",
-        label: "Back End"
-      }],
-    img: "/img/work/aegis-app.gif",
-    description: [
-      "Minimalistic React App for inventory management",      
-      "User session handling using JWT",      
-      "Backend RESTful API built with NestJS, Typescript, and SQL database",
-      "Full testing suite with JEST and Supertest"
-    ],
-    tags: [      
-      { type: "WIP", color: "#ffb347" },
-      { type: "React", color: "#4f92ff" }, 
-      { type: "Typescript", color: "#2E5083" },
-      { type: "Jest", color: "#8D7317" },
-      { type: "Node", color: "#02a47a" },
-      { type: "Nest", color: "#aB4252" },
-      { type: "JWT", color: "#dc2088" },
-      { type: "SQL", color: "#2b7aca" },
-    ],   
-  },
-  {
-    title: "DailyDo - Tasks manager App",
-    type: "Personal Project - Work in progress",
-    company: "Personal Project",
-    url: "https://dailydo-react.vercel.app",    
-    github: [{
-      url: "https://github.com/SSantiago90/dailydo-react",
-      label: "Front End"
+      url: "https://github.com/leandrocruz05/Proyecto-Final-React. git",
+      label: "Repositorio"
     }],
-    img: "/img/work/daily-react.gif",
+    img: "/img/work/react-project.webp",
     description: [
-      "Backend could be sleeping if app wasn't active for a while - retry login after a couple of minutes",
-      "A classic Todo app built with React and Typescript",
-      "Responsive design, theme selection, and animations thanks to Tailwind",
-      "Session handling using JWT",
-      "Some features are being worked on and some others comming soon"
-    ],
-    tags: [      
-      { type: "WIP", color: "#ffb347" },
-      { type: "React", color: "#4f92ff" }, 
-      { type: "Typescript", color: "#2E5083" },
-      { type: "Tailwind", color: "#0D7377" },
-    ],
-  },
-  {
-    title: "DailyDo - NEST API",
-    type: "NestJS API",
-    company: "Personal Project",
-    url: "https://dailydo-nest.onrender.com/api",    
-    github: [{
-      url: "https://github.com/SSantiago90/dailydo-nest",
-      label: "Back End"
-    }],
-    img: "/img/work/aegis-app.webp",
-    description: [
-      "A RESTful API built with NestJS, Typescript, and MongoDB",
-      "It features basic CRUD operations for managing the frontend app requests for tasks",
-      "Includes user management: account register and login, JWT authentication, password encryption, and roles management."
-    ],
-    tags: [
-      { type: "Node", color: "#02a47a" },
-      { type: "Nest", color: "#aB4252" },
-      { type: "Typescript", color: "#2E5083" },
-      { type: "JWT", color: "#dc2088" },
-      { type: "Express", color: "#7ba00a" },
-      { type: "MongoDB", color: "#3b730a" },
-    ],
-  },
-  {
-    title: "Sample React Ecommerce",
-    type: "Bootcamp Project - Coderhouse",
-    company: "Coderhouse",
-    url: "https://coderstore.netlify.app/",    
-    github: [{
-      url: "https://github.com/SSantiago90/CoderStore-React",
-      label: "Front End"
-    }],
-    img: "/img/work/coder-react.gif",
-    description: [
-      "A sample ecommerce website built with React.",
-      "It features cart mangagement with Redux and Firebase/Firestore as a cloud database."
+      "Aplicación web interactiva desarrollada durante la cursada de React JS.",
+      "Implementa componentes reutilizables y gestión de estado.",
+      "Consumo de API vinculada con Firebase.",
+      "Siguiendo las mejores prácticas de desarrollo frontend moderno."
     ],
     tags: [
       { type: "React", color: "#4f92ff" },
-      { type: "Redux", color: "#784296" },
       { type: "Firebase", color: "#cb7912" },
-      { type: "React Router", color: "#3B4252" },
-      { type: "Tailwind", color: "#0D7377" },
-    ],
+      { type: "JavaScript", color: "#f7df1e" },
+      { type: "API", color: "#3B4252" }
+    ]
   },
-  
   {
-    title: "Portfolio",
-    type: "This Website!",
-    company: "Me",
-    url: "/",    
+    title: "Aplicación Interactiva en JavaScript",
+    type: "Proyecto Final - CoderHouse",
+    company: "Proyecto Académico",
+    url: "https://github.com/leandrocruz05/Proyecto-Final-JS.git",
     github: [{
-      url: "https://github.com/SSantiago90",
-      label: "Front End"
+      url: "https://github.com/leandrocruz05/Proyecto-Final-JS.git",
+      label: "Repositorio"
     }],
-    img: "/img/work/portfolio.gif",
+    img: "/img/work/js-project.webp",
     description: [
-      "Personal website. Hope you enjoy it in here!",
+      "Aplicación interactiva que pone en práctica conceptos avanzados de JavaScript.",
+      "Manipulación del DOM, eventos y almacenamiento local.",
+      "Demuestra habilidades en programación estructurada.",
+      "Desarrollo de experiencias de usuario dinámicas."
     ],
     tags: [
-      { type: "NextJS", color: "#555555" },
-      { type: "React", color: "#4f92ff" },
-      { type: "Typescript", color: "#2E5083" },
-      { type: "Tailwind", color: "#0D7377" },
-    ],
+      { type:  "JavaScript", color: "#f7df1e" },
+      { type: "HTML", color: "#e34c26" },
+      { type: "CSS", color: "#264de4" },
+      { type: "DOM", color: "#3B4252" }
+    ]
   },
-]
+  {
+    title: "E-commerce - Proyecto Final",
+    type: "Proyecto Final Desarrollo Web",
+    company: "Proyecto Académico",
+    url: "https://github.com/leandrocruz05/Proyecto-Final-Web.git",
+    github: [{
+      url: "https://github.com/leandrocruz05/Proyecto-Final-Web.git",
+      label: "Repositorio"
+    }],
+    img: "/img/work/ecommerce. webp",
+    description: [
+      "Plataforma web de comercio electrónico para fragancias.",
+      "Permite explorar productos y gestionar carrito de compras.",
+      "Sistema de búsqueda de productos integrado.",
+      "Utiliza HTML, CSS, JavaScript y diseño responsivo."
+    ],
+    tags: [
+      { type: "HTML", color: "#e34c26" },
+      { type: "CSS", color: "#264de4" },
+      { type: "JavaScript", color: "#f7df1e" },
+      { type: "Responsive", color: "#0D7377" }
+    ]
+  },
+  {
+    title: "Landing Page Club Atlético Los Andes",
+    type:  "Proyecto Institucional",
+    company: "Proyecto Personal",
+    url: "https://github.com/leandrocruz05/ClubLosAndes. git",
+    github: [{
+      url: "https://github.com/leandrocruz05/ClubLosAndes. git",
+      label: "Repositorio"
+    }],
+    img: "/img/work/losandes.webp",
+    description: [
+      "Landing page institucional para Club Atlético Los Andes.",
+      "Presenta identidad visual y información relevante del club.",
+      "Accesibilidad optimizada para socios y simpatizantes.",
+      "Proyecto de gran valor personal y barrial."
+    ],
+    tags: [
+      { type: "HTML", color: "#e34c26" },
+      { type: "CSS", color: "#264de4" },
+      { type: "JavaScript", color: "#f7df1e" },
+      { type:  "Landing Page", color: "#3B4252" }
+    ]
+  }
+];
 
 export default projects;
