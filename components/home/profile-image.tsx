@@ -33,7 +33,7 @@ export default function ProfileImg() {
           /* ? "/img/me-light-color.webp"
           : "/img/me-color-dark.webp" */
         }
-        alt="Santiago Salkin picture"
+        alt="Leandro Cruz picture"
       />
     </div>
   );
