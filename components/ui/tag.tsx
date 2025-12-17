@@ -18,10 +18,10 @@ const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
   mongodb: icons.SiMongodb,
   "react query": icons.SiReactquery,
   docker: icons.SiDocker,
-  photoshop: icons.SiAdobephotoshop,
-  "after effects": icons.SiAdobeaftereffects,
+  // photoshop: icons.SiAdobephotoshop, // Not exported in this version
+  // "after effects": icons.SiAdobeaftereffects, // Not exported in this version
   figma: icons.SiFigma,
-  illustrator: icons.SiAdobeillustrator,
+  // illustrator: icons.SiAdobeillustrator, // Not exported in this version
   git: icons.SiGit,
   wip: Pickaxe,
   jwt: icons.SiJsonwebtokens,

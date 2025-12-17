@@ -1,13 +1,12 @@
 # Portfolio
 
-# **Hi!🖖 I'm Santiago Salkin, Web developer.**
+# **Hi!🖖 I'm Leandro Cruz, Analista Programador SSr - Tech Lead.**
 
-**Wellcome to the main repository for my personal website!**
+**Welcome to the main repository for my personal website!**
 
-I'm a frontend focused web developer with fullstack and blockchain experience. Passionate about building clean, efficient interfaces while leveraging backend knowledge. Committed to efficient coding, attention to detail, creative problem-solving, and effective teamwork
-Enthusiastic teacher and every day learner.
+I'm a backend-focused programmer with experience in SQL, PL/SQL, and modern web technologies. Passionate about continuous learning and teamwork. I enjoy contributing ideas and growing alongside other professionals. Committed to efficient coding, attention to detail, and tackling new challenges in technology.
 
-You can view this site live [here 🚀](https://salkinsantiago-porfolio.vercel.app/)
+You can view this site live [here 🚀](https://leandrocruz-portfolio.vercel.app/)
 
 ## License
 
@@ -17,5 +16,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.MD) f
 
 - Thanks to [Vercel]() for cloud hosting and for [Next.js](https://nextjs.org) framework ❤️
 - Credits to [Tailwind CSS](https://tailwindcss.com) for the styling framework. 🎨
-- Awsome Icons by [Lucide](https://lucide.dev). 📦
+- Awesome Icons by [Lucide](https://lucide.dev). 📦
 - UI components powered by [Shadcn/ui](https://ui.shadcn.com/) and [Neo-brutalism](https://www.neobrutalism.dev/) 📦

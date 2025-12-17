@@ -12,14 +12,14 @@ export default function AboutMe() {
         style={{ animationDelay: "400ms" }}
         className="text-4xl font-heading sm:text-5xl delay-400 animate-fade-in"
       >
-        Santiago Salkin
+        Leandro Ivan Cruz
       </h1>
       <div
         style={{ animationDelay: "500ms" }}
         className="mt-4 mb-1 animate-write"
       >
         <p className="uppercase mt-4 sm:text-2xl text-xl font-light tracking-widest animate-write text-gradient inline">
-          Fullstack Software Developer
+          Analista Programador SSr - Tech Lead
         </p>
         <span className="dark:text-zinc-200 text-zinc-800 font-black animate-blink">
           _
@@ -34,22 +34,21 @@ export default function AboutMe() {
           className="md:w-[540px] sm:w-[468px] animate-show"
           style={{ animationDelay: "880ms" }}
         >
-          <strong>Hi!</strong> I&apos;m a frontend focused web developer with
-          fullstack and blockchain experience. Passionate about building clean,
-          efficient interfaces while leveraging backend knowledge. Committed to
-          efficient coding, attention to detail, creative problem-solving, and
-          effective teamwork
+          <strong>¡Hola!</strong> Apasionado por la programación y el aprendizaje continuo. 
+          Cuento con experiencia en proyectos personales y de equipo, donde disfruto aportar ideas 
+          y crecer junto a otros profesionales. Me especializo en desarrollo backend con SQL, PL/SQL 
+          y tecnologías modernas.
           <br />
-          Enthusiastic teacher and every day learner. <br />
+          Busco seguir desarrollándome en tecnología y enfrentar nuevos desafíos. <br />
         </p>
         <br></br>
         <p className="text-sm font-main animate-show delay-1000">
           <a
-            href="/files/Resume_Salkin_Santiago-2025.pdf"
+            href="/files/CV_Leandro_Cruz.pdf"
             download
             className="hover:decoration-white decoration-white text-gradient-hover hover:underline decoration-dashed underline-offset-2 cursor-pointer"
           >
-            <strong>Download</strong> resume here{" "}
+            <strong>Descargar</strong> CV aquí{" "}
             <File className="inline" size={16} />
           </a>
         </p>

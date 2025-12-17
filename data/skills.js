@@ -1,24 +1,31 @@
-const skills = [
-  { name: "SQL", level: 100, category: "Backend & Database" },
-  { name:  "SYBASE", level: 100, category: "Backend & Database" },
-  { name: "4TH DIMENSION", level: 100, category: "Backend & Database" },
-  { name: "PL/SQL", level: 95, category: "Backend & Database" },
-  { name: "JENKINS", level: 80, category: "DevOps & Tools" },
-  { name: "BITBUCKET", level: 80, category: "DevOps & Tools" },
-  { name:  "GITHUB", level: 80, category: "DevOps & Tools" },
-  { name:  "CONTROL M", level: 80, category: "DevOps & Tools" },
-  { name:  "JIRA", level: 80, category: "DevOps & Tools" },
-  { name:  "HTML/CSS", level: 80, category: "Frontend" },
-  { name: "SASS", level: 80, category: "Frontend" },
-  { name: "JAVASCRIPT", level: 70, category: "Frontend" },
-  { name: "REACT JS", level: 70, category:  "Frontend" },
-  { name: "ANGULAR", level: 60, category: "Frontend" },
-  { name: "BOOTSTRAP", level: 70, category: "Frontend" },
-  { name: "FIREBASE", level: 50, category: "Backend & Database" },
-  { name:  "NODE JS", level: 40, category: "Backend & Database" },
-  { name: "POSTMAN", level: 40, category: "DevOps & Tools" },
-  { name: "JAVA", level: 50, category: "Backend & Database" },
-  { name: "COBOL", level: 30, category: "Backend & Database" }
-];
+// Skills grouped by category for UI display
+const skills = {
+  "Backend & Database": [
+    { type: "SQL", level: 100 },
+    { type: "SYBASE", level: 100 },
+    { type: "4TH DIMENSION", level: 100 },
+    { type: "PL/SQL", level: 95 },
+    { type: "FIREBASE", level: 50 },
+    { type: "JAVA", level: 50 },
+    { type: "NODE JS", level: 40 },
+    { type: "COBOL", level: 30 }
+  ],
+  "DevOps & Tools": [
+    { type: "CONTROL-M", level: 80 },
+    { type: "JENKINS", level: 80 },
+    { type: "BITBUCKET", level: 80 },
+    { type: "GITHUB", level: 80 },
+    { type: "JIRA", level: 80 },
+    { type: "POSTMAN", level: 40 }
+  ],
+  "Frontend": [
+    { type: "HTML/CSS", level: 80 },
+    { type: "SASS", level: 80 },
+    { type: "BOOTSTRAP", level: 70 },
+    { type: "JAVASCRIPT", level: 70 },
+    { type: "REACT JS", level: 70 },
+    { type: "ANGULAR", level: 60 }
+  ]
+};
 
 export default skills;
